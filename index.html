@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>【哔哩哔哩2019拜年祭】-在线观看</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/dplayer@1.25.0/dist/DPlayer.min.css">
+    <style>
+     #dplayer{
+         max-width: 960px;
+         height: 620px;
+         margin: 0 auto;
+     }
+    </style>
+
+</head>
+<body>
+    
+    <div id="dplayer"></div>
+    <script src="https://cdn.jsdelivr.net/npm/dplayer@1.25.0/dist/DPlayer.min.js"></script>
+    <script>
+     var dp = new DPlayer({
+    container: document.getElementById('dplayer'),
+    video: {
+        quality: [
+            {
+                name: '珠',
+                url: '1.mp4',
+                type: 'normal',
+            },
+            {
+                name: '联',
+                url: '2.mp4',
+                type: 'normal',
+            },
+            {
+                name: '壁',
+                url: '3.mp4',
+                type: 'normal',
+            },
+            {
+                name: '合',
+                url: '4.mp4',
+                type: 'normal',
+            },
+            {
+                name: 'SP',
+                url: '5.mp4',
+                type: 'normal',
+            },
+        ],
+        defaultQuality: 0,
+        pic: 'images/bnj.jpg',
+    },
+});
+    </script>
+    <h3>注意：视频暂时无法全屏播放，请谅解。不过，你可以在手机上试一下。设置左边的是选集，点击前请刷新页面否则无法播放视频。</h3>
+</body>
+</html>
